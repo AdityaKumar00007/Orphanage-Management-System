@@ -1,0 +1,10 @@
+{% extends 'home.html' %}
+{% load static %}
+{% block content %}
+<form method="POST" action="{% url 'donate' %}">
+    {% csrf_token %}  <div class="alert alert-success text-center" role="alert">
+        Thank you, {{ donar_name }}! Your donation of ₹{{ amount }} has been received. ❤️
+    </div>
+    <a href="/" class="btn btn-primary mt-3">Return to Home</a>
+</form>
+{% endblock %}

@@ -1,0 +1,8 @@
+{% extends 'home.html' %}
+{% block content %}
+<div class="alert alert-danger text-center">
+    <h3>Sorry!</h3>
+    <p>{{ child.name }} has already been adopted.</p>
+    <a href="/adoption/" class="btn btn-secondary mt-3">Return to Adoption Page</a>
+</div>
+{% endblock %}

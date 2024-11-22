@@ -1,0 +1,21 @@
+{% extends 'home.html' %}
+{% load static %}
+{% block content %}
+<div class="row">
+    <h2 class="text-center mb-4">Children Available for Adoption</h2>
+    {% for child in children %}
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">
+                <a href="{% url 'adopt_child' child.id %}">
+                    {{ child.name }}
+                </a>
+            </h5>
+            <p class="card-text">Age: {{ child.age }}</p>
+            <p class="card-text">Gender: {{ child.gender }}</p>
+            <p class="card-text">Date of Birth: {{ child.date_of_birth }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
