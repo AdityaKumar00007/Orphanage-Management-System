@@ -4,11 +4,10 @@
 __pycache__/
 
 # Ignore Django migrations
-*.sqlite3
-db.sqlite3
+*.mysql
+db.mysql
 
-# Ignore node_modules and static files
-node_modules/
-
+# Ignore   static files
+migrations
 # Ignore virtual environments
 venv/
