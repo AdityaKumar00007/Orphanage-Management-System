@@ -12,17 +12,17 @@ A comprehensive **Django-based web application** designed to streamline orphanag
 <div align="center">
 
 ### 🏠 Homepage - Welcome to Our Orphanage
-![Homepage](.github/assets/<img width="1910" height="923" alt="image" src="https://github.com/user-attachments/assets/47bf9108-a12a-4741-9260-1ae68fed3a4f" />
+!Homepage(<img width="1910" height="923" alt="image" src="https://github.com/user-attachments/assets/47bf9108-a12a-4741-9260-1ae68fed3a4f" />
 )
 *Beautiful and welcoming homepage with intuitive navigation to donation and adoption features*
 
 ### 💝 Donation System - Make a Difference
-![Donation Page](.github/assets/<img width="1919" height="926" alt="image" src="https://github.com/user-attachments/assets/d718b071-235a-4360-97a2-6a0bf638f213" />
+!Donation Page(<img width="1919" height="926" alt="image" src="https://github.com/user-attachments/assets/d718b071-235a-4360-97a2-6a0bf638f213" />
 )
 *Comprehensive donation form supporting multiple types: money, clothes, toys, school supplies, food, and blankets*
 
 ### 👶 Adoption Portal - Find Your Family
-![Adoption Page](.github/assets/<img width="1919" height="928" alt="image" src="https://github.com/user-attachments/assets/5fb309c4-f27c-40e1-8d59-a125763f9357" />
+!Adoption Page(<img width="1919" height="928" alt="image" src="https://github.com/user-attachments/assets/5fb309c4-f27c-40e1-8d59-a125763f9357" />
 )
 *Clean, organized display of children available for adoption with detailed profiles and information*
 
