@@ -127,3 +127,7 @@ STATICFILES_DIRS = [BASE_DIR / 'orphanage/static']
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Add this near the end of the file
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'

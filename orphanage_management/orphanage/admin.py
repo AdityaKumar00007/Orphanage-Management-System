@@ -12,3 +12,7 @@ class ChildAdmin(admin.ModelAdmin):
 @admin.register(Donation)
 class DonationAdmin(admin.ModelAdmin):
     list_display = ('donation_type', 'donor_name', 'amount', 'donation_date')
+
+## Admin Name=Admin
+## Email address=admin@gmail.com
+## Password=admin

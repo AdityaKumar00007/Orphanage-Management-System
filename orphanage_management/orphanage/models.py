@@ -24,10 +24,11 @@ class Donation(models.Model):
         ('blankets', 'Blankets'),
     ]
     donor_name = models.CharField(max_length=100)
-    donation_type = models.CharField(max_length=50, choices=DONATION_TYPES)
+    donation_type = models.CharField(max_length=50, choices=DONATION_TYPES, default='money')
     amount = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
     donation_date = models.DateTimeField(auto_now_add=True)
     email = models.EmailField()
+    phone = models.CharField(max_length=15, null=True, blank=True)
 
     def __str__(self):
         return f"{self.donation_type} by {self.donor_name}"

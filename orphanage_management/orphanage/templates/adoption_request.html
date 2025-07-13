@@ -1,0 +1,24 @@
+{% extends 'home.html' %}
+{% block content %}
+<div class="card">
+    <div class="card-header bg-info text-white">
+        Adoption Request
+    </div>
+    <div class="card-body text-center">
+        <h3>You are about to start the adoption process for {{ child.name }}</h3>
+        <p><strong>Age:</strong> {{ child.age }}</p>
+        <p><strong>Gender:</strong> {{ child.gender }}</p>
+        
+        <p class="alert alert-info">
+            By proceeding, you will be scheduled for an interview and background check.
+            This is the first step in the adoption process.
+        </p>
+        
+        <form method="POST">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-primary">Confirm Adoption Request</button>
+            <a href="{% url 'adoption_page' %}" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
+{% endblock %}
