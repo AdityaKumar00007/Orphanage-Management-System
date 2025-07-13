@@ -7,6 +7,24 @@
 
 A comprehensive **Django-based web application** designed to streamline orphanage operations, including child care management, adoption processes, and donation tracking. This system provides an intuitive interface for administrators to manage daily operations efficiently while ensuring the welfare of children in care.
 
+## 📸 Screenshots
+
+<div align="center">
+
+### 🏠 Homepage - Welcome to Our Orphanage
+![Homepage](.github/assets/homepage.png)
+*Beautiful and welcoming homepage with intuitive navigation to donation and adoption features*
+
+### 💝 Donation System - Make a Difference
+![Donation Page](.github/assets/donation.png)
+*Comprehensive donation form supporting multiple types: money, clothes, toys, school supplies, food, and blankets*
+
+### 👶 Adoption Portal - Find Your Family
+![Adoption Page](.github/assets/adoption.png)
+*Clean, organized display of children available for adoption with detailed profiles and information*
+
+</div>
+
 ## 🌟 Features
 
 ### 👶 Child Management
@@ -129,8 +147,15 @@ Visit `http://127.0.0.1:8000/` in your browser to access the application.
 
 The application features a clean, responsive design optimized for:
 - **Desktop Browsers**: Full functionality with optimal layout
-- **Tablet Devices**: Responsive design adapts to medium screens
+- **Tablet Devices**: Responsive design adapts to medium screens  
 - **Mobile Phones**: Mobile-friendly interface for on-the-go access
+
+### Key UI Features:
+- **Beautiful Homepage**: Welcoming design with clear call-to-action buttons
+- **Intuitive Navigation**: Easy access to all major features
+- **Responsive Forms**: Clean, user-friendly forms for donations and registrations
+- **Professional Layout**: Consistent styling across all pages
+- **Accessibility**: Designed with user experience in mind
 
 ## 🔧 Configuration
 
